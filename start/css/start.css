@@ -92,7 +92,7 @@
     border-radius: 27px;
   }
   .header ul > li > .signin:hover  {
-     color: #F8AC54;;
+     color: #F8AC54;
   }
   .header ul > li:not(:last-child) a:hover{
       color: #F8AC54;

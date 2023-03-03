@@ -1,6 +1,6 @@
 
 .container{
-    background-image: url(../pics/p2.jpg);
+    background-image: url("../pics/p2.jpg");
     background-size:cover ;
     background-position: center;
     width: 100%;
@@ -17,14 +17,20 @@
 .container img{
     position: absolute;
     right: 0;
-    width: 60%;
+    width: 50%;
     height: 100%;
+}
+form {
+     position: absolute;
+     left: 149px
 }
 .box h2{
     font-size: 60px;
-    color: #1E548A;
-    margin-bottom: 150px;
+    color: #F8AC54;
+    margin-bottom: 88px;
     position: relative;
+    margin-left: 135px;
+    margin-top: 9px;
 }
 .box .input_feild{
     background-color: #eaeaea;
@@ -73,4 +79,7 @@ form .btn{
     text-decoration: none;
     color: white;
     padding: 60px;
+}
+.btn a:hover{
+    color: #F8AC54;
 }
