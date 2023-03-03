@@ -1,0 +1,51 @@
+.signup{
+    color: #F8AC54;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align:left;
+    position: relative;
+    padding-top: 1px;
+    padding-left: 110px;
+}
+.username,.email,.phone,.password,.confirm{
+    color: #818181;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    border: 9px solid white;
+    margin-left: 124px;
+    font-size: 35px;
+    margin-bottom: 27px;
+}
+.img{
+    position:absolute;
+    right: 0;
+    width: 58%;
+    height: 53%;
+    padding-top: 0px;
+}
+.button{
+    background-color: #1E548A;
+    color: white;
+    font-size: 30px;
+    border: none;
+    outline: 0;
+    border-radius: 40px;
+    font-weight: bold;
+    padding-left: 11px;
+    margin-top: 30px;
+    margin-left: 144px;
+    padding-right: 7px;
+}
+
+.form{
+    display: flex;
+}
+.all{
+    position:absolute;
+    background-color: #697eb5;
+    left: 30px;
+    height: 644px;
+    left: 1px;
+    width: 566px;
+}
