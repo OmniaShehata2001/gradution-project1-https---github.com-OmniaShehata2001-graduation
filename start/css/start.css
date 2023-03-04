@@ -90,6 +90,7 @@
     padding: 10px;
     margin-top: -10px;
     border-radius: 27px;
+    width: 129px;
   }
   .header ul > li > .signin:hover  {
      color: #F8AC54;
@@ -110,11 +111,11 @@
     top: 32%;
 }
 .descrition h1 {
-    font-size: 49px;
+    font-size: 54px;
     font-family: Andika;
 }
 .descrition pre {
-    font-size: 25px;
+    font-size: 29px;
     margin-bottom: 70px;
 }
 .descrition pre span {

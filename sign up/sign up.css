@@ -7,6 +7,8 @@
     position: relative;
     padding-top: 1px;
     padding-left: 110px;
+    margin-left: 130px;
+    margin-top: -18px;
 }
 .username,.email,.phone,.password,.confirm{
     color: #818181;
@@ -17,35 +19,64 @@
     font-size: 35px;
     margin-bottom: 27px;
 }
+input {
+    border: none;
+    font-size: 26px;
+    padding: 13px;
+    outline: 0;
+}
+input:hover {
+    border: none;
+    outline: 0;
+}
 .img{
-    position:absolute;
-    right: 0;
+    position: absolute;
+    right: -62px;
     width: 58%;
     height: 53%;
     padding-top: 0px;
+    top: 0;
 }
-.button{
+.img img {
+    width: 93%;
+    height: 194%;
+    position: absolute;
+    top: 0;
+}
+.button {
     background-color: #1E548A;
-    color: white;
     font-size: 30px;
     border: none;
-    outline: 0;
-    border-radius: 40px;
+    border-radius: 25px;
     font-weight: bold;
-    padding-left: 11px;
-    margin-top: 30px;
-    margin-left: 144px;
-    padding-right: 7px;
+    margin-left: 171px;
+    width: 266px;
+    height: 70px;
 }
-
+.button a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 47px;
+    color: white;
+}
+.button a:hover {
+    color: #F8AC54;
+}
 .form{
     display: flex;
 }
+form {
+    margin-left: 60px;
+}
 .all{
-    position:absolute;
-    background-color: #697eb5;
+    position: absolute;
+    /* background-color: #697eb5; */
     left: 30px;
     height: 644px;
-    left: 1px;
+    left: 0;
     width: 566px;
+    background-image: url(p2.jpg);
+    width: 47%;
+    top: 0;
+    height: 103%;
 }
