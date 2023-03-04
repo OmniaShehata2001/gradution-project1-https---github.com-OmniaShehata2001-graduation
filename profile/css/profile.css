@@ -1,0 +1,106 @@
+
+.container{
+    background-image: url(../pics/p2.jpg);
+    background-size:cover ;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.box{
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    background-color: #ececec;
+    bottom: 38%;
+    height: 37%;
+}
+.box .text{
+    padding: 50px;
+    margin: 25px;
+}
+.box .text h2{
+    font-size: 30px;
+
+}
+.box .text h4{
+    font-size: 20px;
+    color: grey;
+
+}
+
+.box .text button{
+    padding: 17px;
+    border-radius: 22px;
+    cursor: pointer;
+    border: 1px solid gray;
+    font-size: 20px;
+
+}
+.box .text button:hover{
+    background-color: #2196f3;
+    color: white;
+}
+
+.box img{
+    width: 180px;
+    position: absolute;
+    bottom: 310px;
+    left: 55px;
+    border-radius: 50%;
+}
+
+.settings{
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: 50%;
+    top: 62%;
+    display: flex;
+    justify-content: space-around;
+}
+.settings .title{
+    display: flex;
+    padding: 15px;
+    font-size: 23px;
+    position: relative;
+}
+.settings .sett{
+    height: 0;
+    position: absolute;
+    top: 53px;
+    left: -25px;
+}
+.settings .arw{
+    height: 0;
+    position: absolute;
+    top: 53px;
+    right: -25px;
+    cursor: pointer;
+}
+.settings .content{
+    position: relative;
+    color: #2196f3;
+}
+
+.settings .content i{
+    height: 0;
+    position: absolute;
+    left: -50px;
+    cursor: pointer;
+
+}
+.settings .his{
+    height: 0;
+    position: absolute;
+    top: 53px;
+    left: -55px;
+}
+.settings .arr{
+    height: 0;
+    position: absolute;
+    top: 53px;
+    right: -25px;
+    cursor: pointer;
+}
