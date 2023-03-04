@@ -18,7 +18,7 @@
 }
 .box .text{
     padding: 50px;
-    margin: 25px;
+    margin-left: 41px;
 }
 .box .text h2{
     font-size: 30px;
@@ -46,7 +46,7 @@
 .box img{
     width: 180px;
     position: absolute;
-    bottom: 310px;
+    bottom: 227px;
     left: 55px;
     border-radius: 50%;
 }
