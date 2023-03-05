@@ -100,7 +100,7 @@
   }
   .homeimage  img{
     height: 96vh;
-    width: 101%;
+    width: 104%;
     background-color: #1f2021;
     background-size: cover;
     position: relative;
@@ -124,12 +124,12 @@
   }
   .slidetwo .scan h1 {
      font-size: 49px;
-     color: #F8AC54;
-     font-family: Arial, Helvetica, sans-serif;
+     color: #1E548A;
+     font-family: cursive;
   }
   .slidetwo .scan pre {
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
   }
   .slidetwo a {
     font-size: 25px;
@@ -138,17 +138,19 @@
     border-radius: 36px;
     padding: 9px 18px 9px 18px;
     color: white;
+    font-family: cursive;
   }
   .navigation {
     margin-top: 75px;
     margin-left: 66px;
     position: sticky;
-    width: 519px;
+    width: 713px;
   }
   .navigation nav h2 {
     font-size: 38px;
     padding-bottom: 8px;
     border-bottom: 4px solid #cececa;
+    font-family: cursive;
   }
   .navigation nav ul {
     padding-bottom: 32px;
@@ -161,8 +163,44 @@
     border-bottom: 2px solid #cececa;
     padding-bottom: 22px;
     color: #156b9e;
+    font-family: cursive;
   }
   .navigation nav ul > li > a:hover {
     border-bottom: 4px solid #F8AC54;
     color: black;
   }
+  .description {
+    display: flex;
+    justify-content: space-between;
+  }
+  .all {
+        margin-top: 167px;
+        margin-left: 112px;
+        width: 1022px;
+      }
+  .all  ol {
+    list-style-type: disc;
+    font-size: 27px;
+    font-family: cursive;
+  }
+  .all  h1 {
+    padding-left: 3px;
+    font-size: 39px;
+    color: #156b9e;
+    font-family: cursive;
+  }
+  .all  p{
+    font-size: 27px;
+    font-family: cursive;
+  }
+.all a {
+    font-size: 23px;
+    margin-left: 260px;
+    color: #156b9e;
+    font-family: cursive;
+}
+.all a:hover {
+    border: 2px solid #156b9e;
+    border-radius: 7px;
+    padding: 6px;
+}
