@@ -98,21 +98,25 @@
   .header ul > li:not(:last-child) a:hover{
       color: #F8AC54;
   }
-  .homeimage  {
-    min-height: 100vh;
+  .homeimage  img{
+    height: 96vh;
+    width: 101%;
     background-color: #1f2021;
-    background-image: url("../WhatsApp\ Image\ 2023-02-21\ at\ 10.53.39\ PM.jpeg");
     background-size: cover;
     position: relative;
+    top: -122px;
+    left: -8px;
   }
   .slidetwo {
       display: flex;
+      margin-top: -116px;
   }
   .slidetwo img {
     width: 33%;
     height: 44%;
     position: absolute;
-    left: 50%;
+    left: 56%;
+    margin-top: 60px;
   }
   .slidetwo .scan {
     margin-left: 23px;
@@ -129,9 +133,36 @@
   }
   .slidetwo a {
     font-size: 25px;
-    margin-left: 72px;
+    margin-left:208px;
     background-color:#1E548A;
     border-radius: 36px;
     padding: 9px 18px 9px 18px;
     color: white;
+  }
+  .navigation {
+    margin-top: 75px;
+    margin-left: 66px;
+    position: sticky;
+    width: 519px;
+  }
+  .navigation nav h2 {
+    font-size: 38px;
+    padding-bottom: 8px;
+    border-bottom: 4px solid #cececa;
+  }
+  .navigation nav ul {
+    padding-bottom: 32px;
+  }
+  .navigation nav ul >li {
+    padding-bottom: 52px;
+  }
+  .navigation nav ul > li > a {
+    font-size: 25px;
+    border-bottom: 2px solid #cececa;
+    padding-bottom: 22px;
+    color: #156b9e;
+  }
+  .navigation nav ul > li > a:hover {
+    border-bottom: 4px solid #F8AC54;
+    color: black;
   }
