@@ -204,3 +204,59 @@
     border-radius: 7px;
     padding: 6px;
 }
+.feedback {
+    margin-left: 240px;
+    font-family: cursive;
+
+}
+.feedback h1 {
+    font-size: 42px;
+    background-color: #156b9e;
+    color: white;
+    width: 250px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 23px;
+    position: relative;
+}
+.feedback .box {
+    border: 3px solid black;
+    border-radius: 32px;
+    width: 1126px;
+    height: 240px;
+    margin-top: -59px;
+    margin-left: -60px;
+    padding-left: 45px;
+    background-color: whitesmoke;
+    opacity: 2.2;
+}
+.feedback .box h2 {
+    font-size: 42px;
+    color: #156b9e;
+}
+.feedback .box input {
+    font-size: 33px;
+    height: 66px;
+    border-radius: 30px;
+    padding: 5px 45px 5px 45px;
+    background-color: lightgray;
+    opacity: 0.6;
+    border: none;
+    outline: 0;
+}
+.feedback .box .btn {
+    font-size: 33px;
+    background-color: #156b9e;
+    color: white;
+    width: 152px;
+    padding: 8px 0px 8px 7px;
+    border-radius: 42px;
+    border: none;
+    margin-left: 206px;
+    font-family: cursive;
+}
+.feedback .box .btn a{
+    color: white;
+}
+.feedback .box .btn a:hover {
+    color: black;
+}
