@@ -140,6 +140,9 @@
     color: white;
     font-family: cursive;
   }
+  .slidetwo a:hover {
+     color: black;
+  }
   .navigation {
     margin-top: 75px;
     margin-left: 66px;
@@ -319,4 +322,7 @@
 .footer .copyright span {
   font-weight: bold;
   color: var(--main-color);
+}
+.footer .btn a:hover {
+  color:black;
 }
