@@ -1,29 +1,42 @@
+body {
+    background-color: #031427fa;
+}
 .signup{
-    color: #F8AC54;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    color: #4f6396f7;
+    font-family: cursive;
+    font-size: 31px;
     font-weight: bold;
-    text-align:left;
+    /* text-align: center; */
     position: relative;
     padding-top: 1px;
     padding-left: 110px;
-    margin-left: 130px;
-    margin-top: -18px;
+    margin-left: 124px;
+    margin-top: -31px;
 }
 .username,.email,.phone,.password,.confirm{
-    color: #818181;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     border-radius: 30px;
-    border: 9px solid white;
+   padding: 8px;
     margin-left: 124px;
     font-size: 35px;
     margin-bottom: 27px;
+    height: 41px;
+    background-color: #0000003d;
+}
+i {
+    font-size: 23px;
+    position: absolute;
+    margin-left: -42px;
+    margin-top: 8px;
+    color: #4f6396f7;
 }
 input {
     border: none;
     font-size: 26px;
     padding: 13px;
     outline: 0;
+    height: 41px;
+    background-color: transparent;
 }
 input:hover {
     border: none;
@@ -44,7 +57,7 @@ input:hover {
     top: 0;
 }
 .button {
-    background-color: #1E548A;
+    background-color: #4f6396f7;
     font-size: 30px;
     border: none;
     border-radius: 25px;
@@ -54,9 +67,10 @@ input:hover {
     height: 70px;
 }
 .button a {
+    font-family: cursive;
     text-decoration: none;
     padding: 10px;
-    font-size: 47px;
+    font-size: 31px;
     color: white;
 }
 .button a:hover {
@@ -64,19 +78,21 @@ input:hover {
 }
 .form{
     display: flex;
+    position: absolute;
+    left: -28px;
 }
 form {
     margin-left: 60px;
 }
 .all{
+    font-family: cursive;
     position: absolute;
-    /* background-color: #697eb5; */
-    left: 30px;
-    height: 644px;
-    left: 0;
-    width: 566px;
-    background-image: url(p2.jpg);
-    width: 47%;
-    top: 0;
-    height: 103%;
+    top: 37px;
+    height: 88%;
+    background-color: #00000000;
+    width: 632px;
+    left: 462px;
+    border: 17px solid #0000003d;
+    border-radius: 37px;
+    box-shadow: 10px 10px 10px 10px black;
 }
