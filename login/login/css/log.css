@@ -1,6 +1,6 @@
 
 .container{
-    background-image: url("../pics/p2.jpg");
+    background-color: #000000d6;
     background-size:cover ;
     background-position: center;
     width: 100%;
@@ -8,11 +8,17 @@
     position: relative;
 }
 .box{
+    display: flex;
+    background-color: #00000000;
+    width: 666px;
+    height: 630px;
     position: absolute;
-    width: 100%;
-    max-width: 460px;
-    padding: 70px;
+    top: 30px;
+    left: 450px;
     text-align: center;
+    border: 17px solid #0000003d;
+    border-radius: 37px;
+    box-shadow: 10px 10px 10px 10px black;
 }
 .container img{
     position: absolute;
@@ -21,20 +27,22 @@
     height: 100%;
 }
 form {
-     position: absolute;
-     left: 149px
+    position: absolute;
+    left: 63px;
+    top: 104px;
 }
 .box h2{
     font-size: 60px;
-    color: #F8AC54;
-    margin-bottom: 88px;
+    color: #4f6396f7;
+    margin-bottom: 52px;
     position: relative;
     margin-left: 135px;
     margin-top: 9px;
+    left: 92px;
 }
 .box .input_feild{
-    background-color: #eaeaea;
-    margin: 15px 0;
+    background-color: #0000003d;
+    margin: 15px 32px;
     display: flex;
     align-items: center;
     border-radius: 30px;
@@ -52,20 +60,21 @@ form {
 }
 .input_feild i{
     margin-left: 15px;
-    color: #999;
+    color: #4f6396f7;
     font-size: 25px;
 }
 form p{
     text-align: left;
+    margin-left: 32px;
 }
 form p a{
     text-decoration: none;
-    color: #244496 ;
+    color: #4f6396f7 ;
     font-size: 30px;
 
 }
 form .btn{
-    background-color: #1E548A;
+    background-color: #4f6396f7;
     color: white;
     font-size: 30px;
     padding: 30px;
