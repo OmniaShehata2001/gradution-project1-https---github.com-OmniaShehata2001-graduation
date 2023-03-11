@@ -1,0 +1,212 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Cairo", sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+     margin-right: -117px;
+     padding-left: 10px;
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  .header {
+    position: absolute;
+    z-index: 1;
+  }
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+  }
+  .header .container .logo img {
+    width: 70px;
+    height: 70px;
+  }
+  .header .container .logo span {
+    color: white;
+    margin-left: -39px;
+    font-size: 22px;
+    font-family: Hungtrey Beatmora;
+  }
+  .header ul {
+    display: flex;
+  }
+  .header ul >li {
+    margin-top: 39px;
+    margin-left: 20px;
+  }
+  .header ul > li:not(:last-child) a{
+    color: white;
+    font-size: 30px;
+    margin-left: 99px;
+  }
+  .header ul > li > .signin {
+    color: black;
+    background-color: #FCF6DA;
+    position: absolute;
+    margin-left: 94px;
+    font-size: 35px;
+    padding: 10px;
+    margin-top: -10px;
+    border-radius: 27px;
+    width: 129px;
+  }
+  .header ul > li > .signin:hover  {
+     color: #F8AC54;
+  }
+  .header ul > li:not(:last-child) a:hover{
+      color: #F8AC54;
+  }
+  .gradient img{
+    height: 438px;
+    width: 100%;
+    position: relative;
+  }
+  .description {
+    position: absolute;
+    top: 25%;
+    left: 41px;
+  }
+  .description h1 {
+    font-size: 41px;
+    margin-left: 34%;
+    margin-top: -20px;
+    margin-bottom: 85px;
+    color: #F8AC54;
+    font-family: cursive;
+
+  }
+  .description p {
+    width: 64%;
+    font-size: 23px;
+    color: white;
+    font-family: cursive;
+    font-weight: inherit;
+  }
+  .leader {
+    height: 348px;
+    width: 355px;
+    /* border: 1px solid black; */
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    margin-left: 37%;
+    margin-top: 80px;
+    padding-left: 53px;
+    background-color: #d3d3d34f;
+    border-radius: 16px;
+  }
+  .leader img {
+    width: 203px;
+    border-radius: 100%;
+    height: 208px;
+    margin-top: -64px;
+    margin-left: 23px;
+  }
+  .leader p {
+    font-size: 37px;
+    font-family: cursive;
+    margin-top: 37px;
+    color: brown;
+  }
+  .leader h1 {
+    font-family: cursive;
+  }
+  .team-boys ,.team-girls {
+    margin-top:100px;
+    display: flex;
+  }
+  .taha ,.ahmed ,.abanoub {
+    margin-left: 200px;
+    height: 380px;
+    width: 284px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    background-color: #d3d3d34f;
+    border-radius: 16px;
+  }
+  .taha:hover ,.ahmed:hover ,.abanoub:hover ,.leader:hover ,.omnia:hover ,.asmaa:hover ,.shimaa:hover {
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  }
+  .asmaa ,.shimaa ,.omnia {
+    margin-left: 200px;
+    height: 423px;
+    width: 284px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    background-color: #d3d3d34f;
+    border-radius: 16px;
+  }
+  .team-boys img {
+    width: 180px;
+    border-radius: 100%;
+    height: 182px;
+    margin-top: -64px;
+    margin-left: 42px;
+  }
+  .team-girls img {
+    width: 193px;
+    border-radius: 100%;
+    height: 193px;
+    margin-top: -64px;
+    margin-left: 43px;
+  }
+  .team-boys h1 {
+    margin-left: 18px;
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 70px;
+    margin-top: 34px;
+
+  }
+  .team-girls h1 {
+    margin-left: 18px;
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 70px;
+  }
+  .team-boys p ,.team-girls p {
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+    color: brown;
+    line-height: 0.5;
+  }
+.pr p{
+  margin-top: 52px;
+  margin-left: 27%;
+  font-size: 50px;
+  font-weight: bold;
+  color: #164E86;
+  font-family: sans-serif;
+  font-family: cursive;
+}
