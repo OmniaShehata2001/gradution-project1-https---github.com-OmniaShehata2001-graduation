@@ -91,7 +91,7 @@
       color: #F8AC54;
   }
   .homeimage  img{
-    height: 96vh;
+    height: 100vh;
     width: 104%;
     background-color: #1f2021;
     background-size: cover;
@@ -104,8 +104,8 @@
     left: 0;
     top: 0;
     width: 104%;
-    height: 82.5%;
-    background-color: rgb(0 0 0 / 16%);
+    height: 86.9%;
+    background-color: rgb(0 0 0 / 26%);
     z-index: 1;
   }
   .slidetwo {
@@ -125,7 +125,7 @@
   }
   .slidetwo .scan h1 {
      font-size: 49px;
-     color: #34b7cb;
+     color: #1584a9;
      font-family: cursive;
   }
   .slidetwo .scan pre {
@@ -135,7 +135,7 @@
   .slidetwo a {
     font-size: 25px;
     margin-left:208px;
-    background-color:#34b7cb;
+    background-color:#1584a9;
     border-radius: 36px;
     padding: 9px 18px 9px 18px;
     color: white;
@@ -166,7 +166,7 @@
     font-size: 25px;
     border-bottom: 2px solid #cececa;
     padding-bottom: 22px;
-    color: #34b7cb;
+    color: #1584a9;
     font-family: cursive;
   }
   .navigation nav ul > li > a:hover {
@@ -190,7 +190,7 @@
   .all  h1 {
     padding-left: 3px;
     font-size: 39px;
-    color: #34b7cb;
+    color: #1584a9;
     font-family: cursive;
   }
   .all  p{
@@ -200,11 +200,11 @@
 .all a {
     font-size: 23px;
     margin-left: 260px;
-    color: #34b7cb;
+    color: #1584a9;
     font-family: cursive;
 }
 .all a:hover {
-    border: 2px solid #34b7cb;
+    border: 2px solid #1584a9;
     border-radius: 7px;
     padding: 6px;
 }
@@ -215,7 +215,7 @@
 }
 .feedback h1 {
     font-size: 42px;
-    background-color: #34b7cb;
+    background-color: #1584a9;
     color: white;
     width: 250px;
     padding: 8px 15px 8px 15px;
@@ -235,7 +235,7 @@
 }
 .feedback .box h2 {
     font-size: 42px;
-    color: #34b7cb;
+    color: #1584a9;
 }
 .feedback .box input {
     font-size: 33px;
@@ -249,7 +249,7 @@
 }
 .feedback .box .btn {
     font-size: 33px;
-    background-color: #34b7cb;
+    background-color: #1584a9;
     color: white;
     width: 152px;
     padding: 8px 0px 8px 7px;
@@ -268,7 +268,7 @@
   width: 104%;
   padding-top: 0px;
   padding-bottom: 10px;
-  background-image: url(../istockphoto-1299193272-612x612.jpg);
+  background-image: url(../photo_5778456387838393018_y.jpg);
   background-size: cover;
   position: relative;
   color: white;
@@ -297,7 +297,7 @@
   border-radius: 18px;
   padding: 7px 11px 7px 11px;
   border: none;
-  background-color: #34b7cb;
+  background-color: #1584a9;
 }
 .footer .btn a {
   color: white;
@@ -313,7 +313,7 @@
 }
 .footer .social-icons i {
   padding: 10px 15px;
-  color: #34b7cb;
+  color: #1584a9;
   font-size: 27px;
   width: 71px;
 }
