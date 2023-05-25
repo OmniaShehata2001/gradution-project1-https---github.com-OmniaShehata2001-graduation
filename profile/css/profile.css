@@ -1,18 +1,18 @@
 
 .container{
     background-image: url(../pics/p2.jpg);
-    background-size:cover ;
+    background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh;
-    position: relative;
+    height: 104vh;
+    position: absolute;
+
 }
 
 .box{
     position: absolute;
     width: 100%;
     text-align: left;
-    background-color: #ececec;
     bottom: 38%;
     height: 37%;
 }
@@ -30,19 +30,6 @@
 
 }
 
-.box .text button{
-    padding: 17px;
-    border-radius: 22px;
-    cursor: pointer;
-    border: 1px solid gray;
-    font-size: 20px;
-
-}
-.box .text button:hover{
-    background-color: #2196f3;
-    color: white;
-}
-
 .box img{
     width: 180px;
     position: absolute;
@@ -57,14 +44,18 @@
     width: 100%;
     height: 50%;
     top: 62%;
-    display: flex;
-    justify-content: space-around;
+}
+.settings .set h2 {
+    font-size: 34px;
+    margin-left: -49px;
 }
 .settings .title{
     display: flex;
     padding: 15px;
     font-size: 23px;
-    position: relative;
+    position: absolute;
+    left: 149px;
+    top: 261px;
 }
 .settings .sett{
     height: 0;
@@ -80,14 +71,22 @@
     cursor: pointer;
 }
 .settings .content{
+    left: 65px;
     position: relative;
     color: #2196f3;
-}
 
+}
+.history_2 {
+    position: relative;
+    left: 71%;
+    top: 65%;
+    display: flex;
+}
 .settings .content i{
+    padding-top: 11px;
     height: 0;
     position: absolute;
-    left: -50px;
+    left: -77px;
     cursor: pointer;
 
 }
@@ -97,10 +96,31 @@
     top: 53px;
     left: -55px;
 }
+.history .title_h {
+    font-size: 26px;
+    display: flex;
+    margin-left: -11px;
+}
+.settings .set {
+    margin-left: 170px;
+}
+
 .settings .arr{
     height: 0;
     position: absolute;
     top: 53px;
     right: -25px;
     cursor: pointer;
+}
+.settings .content_h{
+    left: 41px;
+    position: relative;
+    color: #2196f3;
+
+}
+.history_2 .history .title_h i{
+    margin-top: 39px;
+}
+.settings .set h2:hover {
+    color: #2196f3;
 }

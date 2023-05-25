@@ -1,6 +1,8 @@
-
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .container{
-    background-color: #031427fa;
+    background-image: url(../pics/Untitled-2\ [Recovered].jpg);
     background-size:cover ;
     background-position: center;
     width: 100%;
@@ -9,16 +11,17 @@
 }
 .box{
     display: flex;
-    background-color: #00000000;
-    width: 666px;
+    width: 528px;
     height: 630px;
     position: absolute;
-    top: 30px;
-    left: 450px;
+    top: 58px;
+    left: 490px;
     text-align: center;
-    border: 17px solid #0000003d;
+    border: 0.5px solid #fff;
     border-radius: 37px;
-    box-shadow: 10px 10px 10px 10px black;
+    box-shadow: 0px 0px 0px 0px white;
+    background-color: #0000000f;
+
 }
 .container img{
     position: absolute;
@@ -28,20 +31,23 @@
 }
 form {
     position: absolute;
-    left: 63px;
+    left: 27px;
     top: 104px;
 }
 .box h2{
-    font-size: 60px;
+    font-size: 48px;
     color: #4f6396f7;
     margin-bottom: 52px;
     position: relative;
-    margin-left: 135px;
-    margin-top: 9px;
+    margin-left: 98px;
+    margin-top: 27px;
     left: 92px;
+    font-family: arial;
 }
 .box .input_feild{
-    background-color: #0000003d;
+    width: 392px;
+    height: 46px;
+    background-color: #0000000f;
     margin: 15px 32px;
     display: flex;
     align-items: center;
@@ -55,7 +61,7 @@ form {
     border: 0;
     outline: 0;
     padding: 15px 15px;
-    font-size: 30px;
+    font-size: 26px;
 
 }
 .input_feild i{
@@ -65,24 +71,28 @@ form {
 }
 form p{
     text-align: left;
-    margin-left: 32px;
+    margin-left: 44px;
+    margin-top: -10px;
 }
 form p a{
-    text-decoration: none;
-    color: #4f6396f7 ;
-    font-size: 30px;
+    color: #424d6a;
+    font-size: 25px;
+    text-decoration: underline;
 
 }
 form .btn{
-    background-color: #4f6396f7;
+    width: 265px;
+    height: 64px;
+    background-color: #4f6396cf;
     color: white;
-    font-size: 30px;
-    padding: 30px;
-    margin: 60px;
+    font-size: 28px;
+    padding: 14px;
+    margin: 58px;
     border: none;
     outline: 0;
-    border-radius: 40px;
+    border-radius: 25px;
     font-weight: bold;
+    font-family: arial;
 }
 .btn a{
     text-decoration: none;

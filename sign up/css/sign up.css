@@ -1,27 +1,30 @@
 body {
-    background-color: #031427fa;
+    background-image: url(../vivid-blurred-colorful-wallpaper-background_58702-3798.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .signup{
     color: #4f6396f7;
-    font-family: cursive;
-    font-size: 31px;
-    font-weight: bold;
+    font-family: arial;
+    font-size: 30px;
+    /* font-weight: bold; */
     /* text-align: center; */
     position: relative;
-    padding-top: 1px;
-    padding-left: 110px;
-    margin-left: 124px;
+    padding-top: 15px;
+    padding-left: 74px;
+    margin-left: 107px;
     margin-top: -31px;
+    
 }
 .username,.email,.phone,.password,.confirm{
-    font-family: cursive;
-    border-radius: 30px;
+    border-radius: 21px;
    padding: 8px;
     margin-left: 124px;
     font-size: 35px;
     margin-bottom: 27px;
     height: 41px;
-    background-color: #0000003d;
+    background-color: #0000000f;
+    font-family: Arial, Helvetica, sans-serif;
 }
 i {
     font-size: 23px;
@@ -32,11 +35,12 @@ i {
 }
 input {
     border: none;
-    font-size: 26px;
+    font-size: 24px;
     padding: 13px;
     outline: 0;
     height: 41px;
     background-color: transparent;
+    font-family: unset;
 }
 input:hover {
     border: none;
@@ -63,13 +67,13 @@ input:hover {
     border-radius: 25px;
     font-weight: bold;
     margin-left: 171px;
-    width: 266px;
-    height: 70px;
+    width: 227px;
+    height: 63px;
+    margin-top: 10px;
 }
 .button a {
-    font-family: cursive;
+    font-family: arial;
     text-decoration: none;
-    padding: 10px;
     font-size: 31px;
     color: white;
 }
@@ -79,20 +83,20 @@ input:hover {
 .form{
     display: flex;
     position: absolute;
-    left: -28px;
+    left: -87px;
 }
 form {
     margin-left: 60px;
 }
 .all{
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 37px;
     height: 88%;
-    background-color: #00000000;
-    width: 632px;
-    left: 462px;
-    border: 17px solid #0000003d;
+    width: 528px;
+    left: 499px;
+    border: 0.5px solid #fff;
     border-radius: 37px;
-    box-shadow: 10px 10px 10px 10px black;
+    box-shadow: 0px 0px 0px 0px white;
+    background-color: #0000000f;
 }
