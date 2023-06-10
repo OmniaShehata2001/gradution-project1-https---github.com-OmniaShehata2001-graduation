@@ -12,13 +12,28 @@
 <body>
     <div class="container">
         <div class="box">
-            <h2>Scan</h2>
+            <h2>UPLOADING</h2>
+            <p class="p1">We can scan our brain from several disease like Alzhimer's disease.</p>
+            <p class="p2">All you need is to upload your brain MRI.</p>
             <form>
-                <label for="img">upload</label>
-                <input type="file" id="img" name="img" accept="image/*">
+                <div class="age">
+                <label>Age:</label>
+                <input type="number" id="age" name="age" class="age">
+                </div>
+                <div class="gender">
+                <label>Gender:</label>
+                <select name="Gender" class="gender">
+                    <option value="">Please select One...</option>
+                    <option value="female">Female</option>
+                    <option value="Male">Male</option>
+                </select>
+            </div>
+                <div class="upload">
+                <input type="file" id="img" accept="image/*" value="upload" class="input-upload">
+            </div>
             </form>
-            <button class="submit"><a>Submit</a></button>
-            <button class="close"><a>Close</a></button>
+            <button class="cancel"><a>Cancel</a></button>
+            <button class="scan"><a>Scan Now</a></button>
         </div>
     </div>
 </body>

@@ -12,9 +12,9 @@
 .box {
     display: flex;
     width: 528px;
-    height: 399px;
+    height: 479px;
     position: absolute;
-    top: 203px;
+    top: 132px;
     left: 93px;
     text-align: center;
     border: 0.5px solid #fff;
@@ -24,36 +24,78 @@
 }
 .box h2 {
     position: absolute;
-    top: 20px;
-    left: 40%;
+    top: -5px;
+    left: 26%;
     font-size: 43px;
     color: white;
 }
+.box .p1 {
+    position: absolute;
+    top: 89px;
+    left: 15px;
+    font-size: 27px;
+    color: white;
+}
+.box .p2 {
+    position: absolute;
+    top: 146px;
+    left: 31px;
+    font-size: 27px;
+    color: white;
 
+}
 form {
     position: absolute;
-    left: 124px;
-    top: 169px;
+    left: -17px;
+    top: 238px;
     font-size: 20px;
+    width: 466px;
 }
-.box .submit {
+.age {
+    display: flex;
     position: absolute;
-    top: 252px;
+    left: 44px;
+}
+.box .age {
+    width: 105px;
+}
+.box .gender {
+    margin-left: 38px;
+}
+.gender {
+    display: flex;
+    position: absolute;
+    left: 50%;
+}
+.box .cancel {
+    position: absolute;
+    top: 373px;
     left: 27%;
     border-radius: 5px;
     font-size: 24px;
-    background-color:  white;
+    background-color: white;
 }
 .box .submit a {
 
 }
-.box .close {
+.box .scan {
     position: absolute;
-    top: 252px;
+    top: 371px;
     left: 54%;
     border-radius: 5px;
     font-size: 24px;
 }
 .box .close a {
 
+}
+.upload {
+    position: absolute;
+    top: 63px;
+    left: 61px;
+}
+.upload .input-upload {
+    font-size: 33px;
+    position: absolute;
+    left: 29px;
+    text-decoration: none;
 }
