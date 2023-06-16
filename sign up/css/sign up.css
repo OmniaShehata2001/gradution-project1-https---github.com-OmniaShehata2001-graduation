@@ -3,6 +3,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+::placeholder {
+    color: white;
+    font-size: 20px;
+}
 .signup{
     color: #4f6396f7;
     font-family: arial;

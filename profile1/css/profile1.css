@@ -1,0 +1,204 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Cairo", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+   margin-right: -117px;
+   padding-left: 10px;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.header {
+    position: absolute;
+    z-index: 2;
+  }
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+  }
+  .header .container .logo img {
+    width: 70px;
+    height: 70px;
+  }
+  .header .container .logo span {
+    color: white;
+    margin-left: -39px;
+    font-size: 22px;
+    font-family: Hungtrey Beatmora;
+  }
+  .header ul {
+    display: flex;
+  }
+  .header ul >li {
+    margin-top: 39px;
+    margin-left: 20px;
+  }
+  .header ul > li:not(:last-child) a{
+    color: white;
+    font-size: 30px;
+    margin-left: 105px;
+  }
+  .header ul > li > .signin {
+    color: black;
+    background-color: #FCF6DA;
+    position: absolute;
+    margin-left: 94px;
+    font-size: 35px;
+    padding: 10px;
+    margin-top: -10px;
+    border-radius: 27px;
+    width: 129px;
+  }
+  .header ul > li > .signin:hover  {
+     color: #F8AC54;
+  }
+  .header ul > li:not(:last-child) a:hover{
+    color: #F8AC54;
+  }
+  .slide_one {
+    background-image: url("WhatsApp Image 2023-06-16 at 16.03.42.jpg");
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 434px;
+  }
+  .box{
+    position: absolute;
+    width: 100%;
+    /* text-align: left; */
+    bottom: -6%;
+    height: 37%;
+    left: 65px;
+}
+.box img{
+  width: 180px;
+}
+.slide_one .box .text {
+  position: absolute;
+    left: 23px;
+    font-size: 21px;
+}
+.settings{
+  position: absolute;
+    background: white;
+    width: 100%;
+    height: 50%;
+    top: 89%;
+    left: -40px;
+}
+.settings .set h2 {
+  font-size: 34px;
+  margin-left: -49px;
+}
+.settings .title{
+  display: flex;
+  padding: 15px;
+  font-size: 23px;
+  position: absolute;
+  left: 149px;
+  top: 261px;
+}
+.settings .sett{
+  height: 0;
+  position: absolute;
+  top: 53px;
+  left: -25px;
+}
+.settings .arw{
+  height: 0;
+  position: absolute;
+  top: 53px;
+  right: -25px;
+  cursor: pointer;
+}
+.settings .content{
+  left: 65px;
+  position: relative;
+  color: #2196f3;
+
+}
+.history_2 {
+  position: absolute;
+    left: 71%;
+    top: 88%;
+    display: flex;
+}
+.settings .content i{
+  padding-top: 11px;
+  height: 0;
+  position: absolute;
+  left: -77px;
+  cursor: pointer;
+
+}
+.settings .his{
+  height: 0;
+  position: absolute;
+  top: 53px;
+  left: -55px;
+}
+.history .title_h {
+  font-size: 26px;
+  display: flex;
+  margin-left: -11px;
+}
+.settings .set {
+  margin-left: 170px;
+}
+
+.settings .arr{
+  height: 0;
+  position: absolute;
+  top: 53px;
+  right: -25px;
+  cursor: pointer;
+}
+.settings .content_h{
+  left: 41px;
+  position: relative;
+  color: #2196f3;
+
+}
+.history_2 .history .title_h i{
+  margin-top: 39px;
+}
+.settings .set h2:hover {
+  color: #2196f3;
+}

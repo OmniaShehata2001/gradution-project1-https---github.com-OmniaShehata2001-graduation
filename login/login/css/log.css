@@ -44,6 +44,10 @@ form {
     left: 92px;
     font-family: arial;
 }
+::placeholder {
+    color: white;
+    font-size: 20px;
+}
 .box .input_feild{
     width: 392px;
     height: 46px;

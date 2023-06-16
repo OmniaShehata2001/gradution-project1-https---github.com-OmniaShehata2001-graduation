@@ -1,6 +1,9 @@
 .body {
     font-family: Arial, Helvetica, sans-serif;
 }
+a {
+    text-decoration: none;
+}
 .container{
     background-image: url("88191515211642 [Converted].JPG");
     background-size:cover ;
@@ -68,25 +71,32 @@ form {
     left: 50%;
 }
 .box .cancel {
+    border: 0px;
     position: absolute;
     top: 373px;
-    left: 27%;
-    border-radius: 5px;
+    left: 23%;
+    border-radius: 8px;
     font-size: 24px;
     background-color: white;
+    padding: 9px;
 }
-.box .submit a {
-
+.box .cancel a {
+    color: black;
+}
+.box .scan a {
+text-decoration: none;
+color: white;
+padding: 5px;
 }
 .box .scan {
+    padding: 9px;
+    background-color: black;
     position: absolute;
     top: 371px;
     left: 54%;
-    border-radius: 5px;
+    border: 0px;
+    border-radius: 14px;
     font-size: 24px;
-}
-.box .close a {
-
 }
 .upload {
     position: absolute;
