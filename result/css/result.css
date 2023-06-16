@@ -1,0 +1,37 @@
+.back_result {
+    background-size: cover;
+    background-position: center;
+    width: 101%;
+    height: 155vh;
+    top: -8px;
+    left: -8px;
+    position: relative;
+}
+.h1 {
+    position: absolute;
+    top: 12%;
+    text-align: center;
+    left: 30%;
+    color: white;
+    font-weight: bold;
+    font-size: 42px;
+}
+.result {
+    height: 605px;
+    width: 67%;
+    position: absolute;
+    top: 30%;
+    left: 286px;
+    background-color: white;
+}
+.result img {
+    width: 500px;
+    height: 400px;
+    padding: 40px 40px 40px 257px;
+
+}
+.result p {
+    padding: 20px;
+    font-size: 20px;
+    font-family: arial;
+}
