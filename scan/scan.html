@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scan</title>
-    <link rel="stylesheet" href="css/scan.css"/>
-    <link rel="stylesheet" href="css/normalize.css"/>
-    <link rel="stylesheet" href="css/all.min.css"/>
-    <link rel="stylesheet" href="css/hover.css"/>
+    <link rel="stylesheet" href="css/scan.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/hover.css" />
 </head>
+
 <body>
     <div class="container">
         <div class="box">
@@ -18,23 +20,78 @@
             <p class="p2">All you need is to upload your brain MRI.</p>
             <form>
                 <div class="age">
-                <label>Age:</label>
-                <input type="number" id="age" name="age" class="age">
+                    <label>Age:</label>
+                    <input type="number" id="age" name="age" class="age">
                 </div>
                 <div class="gender">
-                <label>Gender:</label>
-                <select name="Gender" class="gender">
-                    <option value="">Please select One...</option>
-                    <option value="female">Female</option>
-                    <option value="Male">Male</option>
-                </select>
-            </div>
+                    <label>Gender:</label>
+                    <select name="Gender" class="gender">
+                        <option value="">Please select One...</option>
+                        <option value="female">Female</option>
+                        <option value="Male">Male</option>
+                    </select>
+                </div>
                 <div class="upload">
-                <input type="file" id="img" accept="image/*" value="upload" class="input-upload">
-            </div>
+                    <!-- <input type="file" id="img-input" accept="image/*" value="upload" class="input-upload"> -->
+                    <!-- <img id="img" hidden /> -->
+                    <input type="file" name="" id="fileId" onchange="imageUploaded()">
+
+                </div>
             </form>
+
             <button class="cancel"><a href="#">Cancel</a></button>
-            <button class="scan"><a href="#">Scan Now</a></button>
+            <button class="scan" onclick="scanNow()"><a href="#">Scan Now</a></button>
         </div>
     </div>
 </body>
+
+<script>
+    let imageBase64Stringsep = '';
+    function imageUploaded() {
+        let file = document.querySelector(
+            'input[type=file]')['files'][0];
+
+        let reader = new FileReader();
+        console.log("next");
+
+        reader.onload = function () {
+            base64String = reader.result.replace("data:", "")
+                .replace(/^.+,/, "");
+
+            imageBase64Stringsep = base64String;
+
+            console.log(base64String);
+        }
+        reader.readAsDataURL(file);
+    }
+
+
+
+    function scanNow() {
+        if (imageBase64Stringsep) {
+            fetch("http://localhost:5000/classify", {
+                method: "POST",
+                body: JSON.stringify({
+                    image: imageBase64Stringsep
+                }),
+                headers: {
+                    "Content-type": "application/json",
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Connection": "keep-alive",
+                    "User-Agent": "PostmanRuntime/7.32.3"
+                }
+            })
+                .then((response) => {
+                    debugger
+                    response.json().then(res => {
+                        window.alert(res["Degree of demented"])
+                    })
+
+                })
+        }
+        else {
+            window.alert('add image first')
+        }
+    }
+</script>
