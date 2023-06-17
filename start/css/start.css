@@ -126,3 +126,6 @@
 .descrition a:hover {
     color: #F8AC54;
 }
+img {
+  width: 100%;
+}
